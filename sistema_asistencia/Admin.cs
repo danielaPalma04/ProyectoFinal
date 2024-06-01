@@ -375,7 +375,10 @@ namespace sistema_asistencia
             {
                 conn.Open();
 
-                string query = "DELETE FROM usuarios WHERE id = '" + id + "';";
+                string query = "DELETE FROM nomina_empleado WHERE usuarios_id = '" + id + "';" +
+               "DELETE FROM registro_entrada WHERE usuarios_id = '" + id + "';" +
+               "DELETE FROM registro_salida WHERE usuarios_id = '" + id + "';" +
+               "DELETE FROM usuarios WHERE id = '" + id + "';";
                 MySqlCommand cmd = new MySqlCommand(query, conn);
 
                 MySqlDataReader reader = cmd.ExecuteReader();

@@ -89,5 +89,15 @@ namespace sistema_asistencia.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Rainbow_Gradient_Pink_and_Purple_Virtual_Background {
+            get {
+                object obj = ResourceManager.GetObject("Rainbow Gradient Pink and Purple Virtual Background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

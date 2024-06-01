@@ -170,5 +170,8 @@
   <ItemGroup>
     <None Include="Resources\Purple and Pink Flat Color UI Login Page Simple Desktop UI Prototype.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rainbow Gradient Pink and Purple Virtual Background.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -235,5 +235,10 @@ namespace sistema_asistencia
                 conn.Close();
             }
         }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
